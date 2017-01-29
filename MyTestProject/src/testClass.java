@@ -11,6 +11,7 @@ public class testClass {
 		System.out.println("name test method");
 		System.out.println("added change");
 		System.out.println("added another change");
+		System.out.println("added test change");
 		//Added comment
 		
 	}
