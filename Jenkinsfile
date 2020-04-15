@@ -9,13 +9,13 @@ pipeline {
 
     stage('QA') {
       steps {
-        sh 'echo "QA"'
+        echo 'QA'
       }
     }
 
-    stage('Deploy') {
+    stage('Prod') {
       steps {
-        sh 'echo "Deploy"'
+        echo 'Prod'
       }
     }
 
