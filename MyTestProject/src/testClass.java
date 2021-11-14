@@ -3,9 +3,11 @@ import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-public class testClass {
-	
-	@Test
+
+public class FirstTest {
+
+
+    @Test
     public void OpenBrowser()  {
         WebDriver driver;
         System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
@@ -19,5 +21,4 @@ public class testClass {
     }
 
 
-	
 }
