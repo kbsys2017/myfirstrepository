@@ -13,7 +13,7 @@ public class FirstTest {
         System.out.println("Test Start");
         
         
-         System.out.println("Test Finished" + driver.getTitle());
+         System.out.println("Test Finished");
     }
 
 
